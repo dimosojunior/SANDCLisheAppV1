@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "react-native-project",
+    "slug": "react-native-project",
+    "version": "1.0.0",
+    "orientation":"portrait", //"default",
+    "icon": "./assets/10243.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/1284.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+
+     "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Selecct and upload images.",
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ],
+
+
+
+
+
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.dimosojr.reactnativeproject",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/10243.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4393f557-910b-4d88-bad4-5cb420168d6a"
+      }
+    }
+  }
+}
